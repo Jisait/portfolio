@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 80px;
+  height: 400px;
+  width: 450px;
+  background-color: rgb(22, 22, 22);
+}
+
+.titre {
+  position: absolute;
+  top: 15px;
+  font-family: "Oswald";
+  color: white;
+  font-size: 22px;
+  width: 450px;
+  text-align: center;
+}
+
+.nom {
+  position: absolute;
+  top: 93px;
+  left: 52px;
+  font-family: "Raleway";
+  color: white;
+  font-size: 16px;
+  transition: 0.5s
+}
+
+.nomInput:focus ~ .nom,
+.nomInput:valid ~ .nom{
+  top: 76px;
+  color: #f4d03f ;
+  font-size: 11px;
+}
+
+
+
+.nomInput {
+  position: absolute;
+  font-family: "Raleway";
+  top: 90px;
+  left: 50px;
+  width: 348px;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  border-bottom: 1px solid white;
+  padding-left: 0px;
+  padding-bottom: 6px;
+  outline: none;
+  z-index: 1
+}
+
+.email {
+  position: absolute;
+  top: 160px;
+  left: 52px;
+  font-family: "Raleway";
+  color: white;
+  font-size: 16px;
+  transition: 0.5s
+}
+
+.emailInput:focus ~ .email,
+.emailInput:valid ~ .email{
+  top: 143px;
+  color: #f4d03f ;
+  font-size: 11px;
+}
+
+.emailInput {
+  position: absolute;
+  font-family: "Raleway";
+  top: 157px;
+  left: 50px;
+  width: 348px;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  border-bottom: 1px solid white;
+  padding-left: 0px;
+  padding-bottom: 6px;
+  outline: none;
+  z-index: 1
+}
+
+.message {
+  position: absolute;
+  background-color: rgb(22, 22, 22);
+  top: 219px;
+  left: 44px;
+  padding: 8px;
+  font-family: "Raleway";
+  color: white;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index:2 
+}
+
+.messageInput:hover ~ .message,
+.messageInput:valid ~ .message{
+  top: 210px;
+  left: 52px;
+  padding: 0px;
+  color: #f4d03f ;
+  font-size: 11px;
+}
+
+.messageInput {
+  position: absolute;
+  font-family: "Raleway";
+  top: 224px;
+  left: 50px;
+  height: 140px;
+  width: 348px;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  outline: none;
+  z-index: 1;
+  resize: none
+}

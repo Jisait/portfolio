@@ -1,22 +1,17 @@
-.main {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+.container {
+height: 200vh;
+background: radial-gradient(ellipse at bottom,rgb(24, 24, 24) 0%, rgba(0,0,0,1) 100%);
+}
+
+.NameAnimation {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+  padding-top: 20vh;
+  z-index:10
 }
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
-}

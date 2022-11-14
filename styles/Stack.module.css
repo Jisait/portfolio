@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 7px;
+ animation: logoAppear 0.1s forwards;
+ animation-delay: 2.1s; 
+ opacity: 0;
+}
+
+@keyframes logoAppear {
+  0% {
+    opacity: 0;
+ }
+
+  100% {
+    opacity: 100;
+ }
+}

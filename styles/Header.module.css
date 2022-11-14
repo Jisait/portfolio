@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+.main {
+  position:fixed;
+        width: 100%;
+        top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color:rgb(22, 22, 22);
+  color: #f4d03f;
+  z-index: 1;
+
+}
+
+.logosContainer {
+  display: flex;
+  margin-left: 20px ;
+  margin-right: auto;
+}
+
+.github {
+  font-size: 22px ; 
+  color: rgb(68, 68, 68);
+  z-index: 1
+}
+.github:hover {
+  color: #f4d03f;
+}
+
+.linkedIn {
+  margin-left:10px;
+  font-size: 22px ; 
+  color: rgb(68, 68, 68)
+}
+.linkedIn:hover {
+  color: #f4d03f;
+}
+
+.title {
+  position: fixed;
+  text-align: center;
+
+
+  width: 80%;
+  font-family: 'Oswald';
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.ongletContainer {
+  display: flex;
+  margin-right: 40px ;
+  margin-left: auto;
+}
+
+.projets{
+  font-family: "Oswald";
+  font-size: 18px;
+  font-weight: 100;
+  color: grey;
+  margin: 10px 0px 14px 0px;
+  z-index: 1;
+  padding: 10px 20px 14px 20px;
+  border-bottom: #585858 1px solid;
+  cursor: pointer;
+
+}
+
+.projets:hover{
+  color: #f4d03f ;
+  border-bottom: #f4d03f 1px solid;
+  background-color: #313131;
+
+}
+
+.contact{
+  font-family: "Oswald";
+  font-weight: 100;
+  margin-right: 20px;
+  font-size: 18px;
+  color: grey;
+  margin: 10px 0px 14px 0px;
+  z-index: 1;
+  padding: 10px 20px 14px 20px;
+  border-bottom: #585858 1px solid;
+  cursor: pointer;
+
+}
+
+.contact:hover{
+  color: #f4d03f ;
+  border-bottom: #f4d03f 1px solid;
+  background-color: #313131
+}

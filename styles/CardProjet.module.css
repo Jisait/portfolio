@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    display: grid;
+    grid-template: 10px 268px 42px 1fr/ 10px 430px 10px;
+    margin: 70px 20px 20px 0px;
+    min-height: 400px;
+    min-width: 460px;
+    background-color: rgb(22, 22, 22);
+}
+
+.image {
+    grid-row: 2;
+    grid-column: 2;
+    display: block;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.title {
+    grid-row: 3;
+    grid-column: 2/4;
+    margin: 0px;
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 30px;
+    color: white
+}
+
+.desc {
+    grid-row: 4;
+    grid-column: 2/4;
+    margin: 0px;
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 16px;
+    color: white
+}
+
+.codeContainer {
+    grid-row: 3;
+    grid-column-end: 3;
+    justify-self: end;
+}
+
+.code {
+    height: 12px;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 6px;
+    padding: 6px 4px ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.code:hover {
+    color: #f4d03f;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal{
+    font-family: "Raleway";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 46px;
+    width: 82px;
+    background-color: rgba(0,0,0,0.5);
+    grid-row-end: 3 ;
+    grid-column-end: 4;
+    justify-self: end;
+    align-self: end;
+    z-index: 2;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.45);}
+
+.frontend {
+    margin-top:1px;
+    color:grey;
+    padding: 2px 10px;
+    background-color: rgb(22, 22, 22);
+}
+
+.frontend:hover {
+    color: #f4d03f;
+    background-color:rgb(39, 39, 39)
+}
+
+.backend {
+    color:grey;
+    padding: 2px 10px;
+    background-color: rgb(22, 22, 22);
+}
+
+.backend:hover {
+    color: #f4d03f;
+    background-color:rgb(39, 39, 39)
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 6px solid rgba(0,0,0,0.5);
+    border-right : 6px solid transparent;
+    border-left : 6px solid transparent;
+    margin-left: 53px;
+    margin-bottom: 7px;
+   }

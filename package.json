@@ -9,13 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@mantine/carousel": "^5.5.4",
+    "@mantine/core": "^5.5.4",
+    "@mantine/hooks": "^5.5.4",
+    "@mantine/next": "^5.5.4",
+    "aos": "^2.3.4",
+    "bootstrap": "3",
+    "embla-carousel-react": "^7.0.3",
+    "gsap": "^3.11.3",
+    "next": "13.0.3",
+    "next-images": "^1.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-outside-click-handler": "^1.3.0",
+    "reactstrap": "^9.1.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
+    "autoprefixer": "^10.4.12",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0"
   }
