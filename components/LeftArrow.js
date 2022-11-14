@@ -10,8 +10,8 @@ function LeftArrow() {
     <path d="M2 39L17 19V59L2 39Z" fill="white"/>
     </g>
     <defs>
-    <filter id="filter0_d_363_8" x="19.5" y="0" width="9" height="87" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter0_d_363_8" x="19.5" y="0" width="9" height="87" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="2" dy="4"/>
     <feGaussianBlur stdDeviation="2"/>
@@ -20,8 +20,8 @@ function LeftArrow() {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_363_8"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_363_8" result="shape"/>
     </filter>
-    <filter id="filter1_d_363_8" x="0" y="19" width="23" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter1_d_363_8" x="0" y="19" width="23" height="48" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="2" dy="4"/>
     <feGaussianBlur stdDeviation="2"/>
